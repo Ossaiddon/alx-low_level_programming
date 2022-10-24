@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 void positive_or_negative(int i);
-printf("Infinite loop incoming :(\n");
-printf("%d is the largest number\n", largest);
-printf("Date: %02d/%02d/%04d\n", month, day, year);
+int largest_number(int a, int b, int c);
+int convert_day(int month, int day);
+void print_remaining_days(int month, int day, int year);
 
 
 #endif /* MAIN_H */
